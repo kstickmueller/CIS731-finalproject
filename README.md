@@ -10,9 +10,9 @@ Cleaning required of the dataset includes:
 - Some cleaning required, including removal of null CustomerID, customers with extremely large daily purchases (+70,000 in 1 day)
 - Utilize PySpark functions like WithColumn, filter
 - Calculating various metrics for each unique CustomerID:
-    Recency: time since last purchase
-    Frequency: number of unique invoices
-    Monetary Value: how much each customer spends
+    Recency: time since last purchase,
+    Frequency: number of unique invoices,
+    Monetary Value: how much each customer spends,
 - Scale data using MinMaxScaler
 - Create vector of scaled and unscaled RFM features using VectorAssembler for use in clustering and classification
 - Split data into train and test sets (70/30)

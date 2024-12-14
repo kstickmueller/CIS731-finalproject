@@ -12,7 +12,7 @@ Cleaning required of the dataset includes:
 - Calculating various metrics for each unique CustomerID:
     Recency: time since last purchase,
     Frequency: number of unique invoices,
-    Monetary Value: how much each customer spends,
+    Monetary Value: how much each customer spends
 - Scale data using MinMaxScaler
 - Create vector of scaled and unscaled RFM features using VectorAssembler for use in clustering and classification
 - Split data into train and test sets (70/30)

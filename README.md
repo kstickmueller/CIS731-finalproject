@@ -4,7 +4,7 @@ Final Deliverables for CIS731 Final Project
 The dataset utilized in the project is the "Online Retail" dataset from UC Irvine Machine Learning Repository, https://archive.ics.uci.edu/dataset/352/online+retail.
 The dataset was acquired from the Databricks Solution Accelerator, found here: https://www.databricks.com/solutions/accelerators/customer-lifetime-value. 
 
-Cleaning required of the dataset includes: 
+Many of the cleaning steps follow the Databricks Solution Accelerator. Cleaning required of the dataset includes: 
 - Changing InvoiceDate from a string data type to a Date data type
 - Create Sales column: Quantity * UnitPrice
 - Some cleaning required, including removal of null CustomerID, customers with extremely large daily purchases (+70,000 in 1 day)
